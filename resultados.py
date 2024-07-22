@@ -4,6 +4,46 @@ import requests
 import os
 from datetime import datetime
 import pytz
+from PIL import Image
+import base64
+from io import BytesIO
+
+# Dicionário de logotipos dos times
+logos = {
+    "América-MG": "./images_times/americaMG.png",
+    "CA Paranaense": "./images_times/atlpr.png",
+    "CA Mineiro": "./images_times/atleMG.png",
+    "EC Bahia": "./images_times/bahia.png",
+    "Botafogo FR": "./images_times/botaf.png",
+    "SC Corinthians Paulista": "./images_times/corit.png",
+    "Coritiba": "./images_times/coritiba.png",
+    "Cuiabá EC": "./images_times/cuiaba.png",
+    "Cruzeiro": "./images_times/cruzeiro.png",
+    "CR Flamengo": "./images_times/flamengo.png",
+    "Fluminense FC": "./images_times/flumi.png",
+    "Fortaleza EC": "./images_times/fortaleza.png",
+    "Goiás": "./images_times/goias.png",
+    "Grêmio FBPA": "./images_times/gremio.png",
+    "SC Internacional": "./images_times/inter.png",
+    "SE Palmeiras": "./images_times/palmeiras.png",
+    "RB Bragantino": "./images_times/br.png",
+    "Santos": "./images_times/santos.png",
+    "São Paulo FC": "./images_times/saopaulo.png",
+    "CR Vasco da Gama": "./images_times/vasco.png",
+    "EC Vitória": "./images_times/viba.png",
+    "AC Goianiense": "./images_times/atleticoGO.png",
+    "EC Juventude": "./images_times/juven.png",
+    "Criciúma EC": "./images_times/criciuma.png",
+    "Cruzeiro EC": "./images_times/cruzeiro.png"
+}
+
+# Função para converter imagem para Base64
+def image_to_base64(image_path):
+    img = Image.open(image_path)
+    img = img.resize((200, 200))  # Ajuste o tamanho conforme necessário
+    buffered = BytesIO()
+    img.save(buffered, format="PNG")
+    return base64.b64encode(buffered.getvalue()).decode()
 
 # Função para obter os resultados
 def obter_resultados():
@@ -26,15 +66,59 @@ def converter_para_horario_brasilia(data_horario):
 
 # Função para exibir os resultados
 def show_resultados_page():
-    col1, col2, col3 = st.columns([3, 1, 1])
-    
-    with col1:
-        st.title('Campeonato Brasileiro Série A')
-    
-    with col3:
-        st.image('./image/wd.png', width=200)
+    # Incluindo imagem no cabeçalho
+    header_image_path = "./images_times/header.png"  # Substitua pelo caminho da sua imagem
+    header_image_html = ""
+    if os.path.exists(header_image_path):
+        header_image_base64 = image_to_base64(header_image_path)
+        header_image_html = f'<img src="data:image/png;base64,{header_image_base64}" style="display: block; margin-left: auto; margin-right: auto; width: 200px;">'  # Ajuste o tamanho conforme necessário
 
-    st.subheader('Temporada 2024')
+    st.markdown(f"""
+        {header_image_html}
+        <h1 style="text-align: center;">Campeonato Brasileiro Série A</h1>
+        <h2 style="text-align: center;">Temporada 2024</h2>
+        <style>
+            body {{
+                background-color: #f8f9fa;
+            }}
+            .container {{
+                margin-top: 20px;
+            }}
+            .header {{
+                text-align: center;
+            }}
+            .subheader {{
+                margin: 20px 0;
+                font-size: 1.5rem;
+                text-align: center;
+            }}
+            .match-info {{
+                font-size: 1.2rem;
+                text-align: center;
+            }}
+            .match-status {{
+                font-size: 1rem;
+                text-align: center;
+                color: #999;
+            }}
+            .team-logo {{
+                width: 50px;
+                height: 50px;
+                object-fit: contain;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }}
+            .match-card {{
+                background-color: #fff;
+                border: 2px solid #28a745;
+                border-radius: 8px;
+                padding: 10px;
+                margin-bottom: 20px;
+                text-align: center;
+            }}
+        </style>
+    """, unsafe_allow_html=True)
 
     if not os.path.exists('result'):
         os.makedirs('result')
@@ -65,22 +149,9 @@ def show_resultados_page():
         st.session_state.resultados = resultados_df
 
         st.markdown("""
-            <style>
-                .header h1 {
-                    margin: 0;
-                }
-                .match-info {
-                    font-size: 16px;
-                    color: #666;
-                }
-                .match-status {
-                    font-size: 16px;
-                    color: #999;
-                }
-            </style>
+            <div class="subheader">Partidas Recentes</div>
         """, unsafe_allow_html=True)
 
-        st.subheader('Partidas Recentes')
         for index, row in resultados_df.iterrows():
             time1, time2 = row['Jogo'].split(' vs ')
             resultado_time1 = row['Resultado_Time1']
@@ -89,29 +160,52 @@ def show_resultados_page():
             data = row['Data']
             status = row['Status']
 
-            col1, col2, col3, col4, col5, col6 = st.columns([1, 2, 3, 2, 3, 1])
+            logo_path1 = logos.get(time1.strip(), "")
+            logo_html1 = ""
+            if logo_path1 and os.path.exists(logo_path1):
+                logo_base64_1 = image_to_base64(logo_path1)
+                logo_html1 = f'<img src="data:image/png;base64,{logo_base64_1}" class="team-logo">'
 
-            with col1:
-                st.write(rodada)
-            
-            with col2:
-                st.write(data)
-            
-            with col3:
-                st.write(time1)
-            
-            with col4:
-                st.write(f"{resultado_time1} - {resultado_time2}")
-            
-            with col5:
-                st.write(time2)
-            
-            with col6:
-                st.write(status)
+            logo_path2 = logos.get(time2.strip(), "")
+            logo_html2 = ""
+            if logo_path2 and os.path.exists(logo_path2):
+                logo_base64_2 = image_to_base64(logo_path2)
+                logo_html2 = f'<img src="data:image/png;base64,{logo_base64_2}" class="team-logo">'
 
-        st.subheader('Próximas Partidas')
-        # Adicione aqui a lógica para as próximas partidas, similar às partidas recentes
+            st.markdown(f"""
+                <div class="match-card">
+                    <div class="row">
+                        <div class="col-6 match-info">
+                            {logo_html1}
+                            {time1.strip()}
+                        </div>
+                        <div class="col-6 match-info">
+                            {logo_html2}
+                            {time2.strip()}
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 match-info">
+                            {resultado_time1} - {resultado_time2}
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 match-status">
+                            {status}
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 match-info">
+                            Rodada {rodada} - {data}
+                        </div>
+                    </div>
+                </div>
+            """, unsafe_allow_html=True)
 
+        st.markdown("""
+            <div class="subheader">Próximas Partidas</div>
+            <!-- Adicione aqui a lógica para as próximas partidas, similar às partidas recentes -->
+        """, unsafe_allow_html=True)
     else:
         st.error("Erro ao obter resultados reais.")
 
