@@ -79,7 +79,7 @@ def show_resultados_page():
         <h2 style="text-align: center;">Temporada 2024</h2>
         <style>
             body {{
-                background-color: #f8f9fa;
+
             }}
             .container {{
                 margin-top: 20px;
