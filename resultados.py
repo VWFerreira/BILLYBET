@@ -110,8 +110,6 @@ def show_resultados_page():
                 margin-right: auto;
             }}
             .match-card {{
-                background-color: #fff;
-                border: 2px solid #28a745;
                 border-radius: 8px;
                 padding: 10px;
                 margin-bottom: 20px;
