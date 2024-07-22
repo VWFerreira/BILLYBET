@@ -67,7 +67,7 @@ def converter_para_horario_brasilia(data_horario):
 # Função para exibir os resultados
 def show_resultados_page():
     # Incluindo imagem no cabeçalho
-    header_image_path = "./images_times/header.png"  # Substitua pelo caminho da sua imagem
+    header_image_path = "./image/result.png"  # Substitua pelo caminho da sua imagem
     header_image_html = ""
     if os.path.exists(header_image_path):
         header_image_base64 = image_to_base64(header_image_path)
@@ -79,7 +79,7 @@ def show_resultados_page():
         <h2 style="text-align: center;">Temporada 2024</h2>
         <style>
             body {{
-
+                background-color: #f8f9fa;
             }}
             .container {{
                 margin-top: 20px;
@@ -99,7 +99,6 @@ def show_resultados_page():
             .match-status {{
                 font-size: 1rem;
                 text-align: center;
-                color: #999;
             }}
             .team-logo {{
                 width: 50px;
@@ -110,6 +109,8 @@ def show_resultados_page():
                 margin-right: auto;
             }}
             .match-card {{
+
+                border: 2px solid #28a745;
                 border-radius: 8px;
                 padding: 10px;
                 margin-bottom: 20px;
@@ -150,55 +151,62 @@ def show_resultados_page():
             <div class="subheader">Partidas Recentes</div>
         """, unsafe_allow_html=True)
 
-        for index, row in resultados_df.iterrows():
-            time1, time2 = row['Jogo'].split(' vs ')
-            resultado_time1 = row['Resultado_Time1']
-            resultado_time2 = row['Resultado_Time2']
-            rodada = row['Rodada']
-            data = row['Data']
-            status = row['Status']
+        rodadas = sorted(resultados_df['Rodada'].unique())
+        for i in range(0, len(rodadas), 2):
+            col1, col2 = st.columns(2)
+            
+            for rodada in rodadas[i:i+2]:
+                with col1 if rodada % 2 == 0 else col2:
+                    rodada_df = resultados_df[resultados_df['Rodada'] == rodada]
+                    st.markdown(f"### Rodada {rodada}")
+                    for index, row in rodada_df.iterrows():
+                        time1, time2 = row['Jogo'].split(' vs ')
+                        resultado_time1 = row['Resultado_Time1']
+                        resultado_time2 = row['Resultado_Time2']
+                        data = row['Data']
+                        status = row['Status']
 
-            logo_path1 = logos.get(time1.strip(), "")
-            logo_html1 = ""
-            if logo_path1 and os.path.exists(logo_path1):
-                logo_base64_1 = image_to_base64(logo_path1)
-                logo_html1 = f'<img src="data:image/png;base64,{logo_base64_1}" class="team-logo">'
+                        logo_path1 = logos.get(time1.strip(), "")
+                        logo_html1 = ""
+                        if logo_path1 and os.path.exists(logo_path1):
+                            logo_base64_1 = image_to_base64(logo_path1)
+                            logo_html1 = f'<img src="data:image/png;base64,{logo_base64_1}" class="team-logo">'
 
-            logo_path2 = logos.get(time2.strip(), "")
-            logo_html2 = ""
-            if logo_path2 and os.path.exists(logo_path2):
-                logo_base64_2 = image_to_base64(logo_path2)
-                logo_html2 = f'<img src="data:image/png;base64,{logo_base64_2}" class="team-logo">'
+                        logo_path2 = logos.get(time2.strip(), "")
+                        logo_html2 = ""
+                        if logo_path2 and os.path.exists(logo_path2):
+                            logo_base64_2 = image_to_base64(logo_path2)
+                            logo_html2 = f'<img src="data:image/png;base64,{logo_base64_2}" class="team-logo">'
 
-            st.markdown(f"""
-                <div class="match-card">
-                    <div class="row">
-                        <div class="col-6 match-info">
-                            {logo_html1}
-                            {time1.strip()}
-                        </div>
-                        <div class="col-6 match-info">
-                            {logo_html2}
-                            {time2.strip()}
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-12 match-info">
-                            {resultado_time1} - {resultado_time2}
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-12 match-status">
-                            {status}
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-12 match-info">
-                            Rodada {rodada} - {data}
-                        </div>
-                    </div>
-                </div>
-            """, unsafe_allow_html=True)
+                        st.markdown(f"""
+                            <div class="match-card">
+                                <div class="row">
+                                    <div class="col-6 match-info">
+                                        {logo_html1}
+                                        {time1.strip()}
+                                    </div>
+                                    <div class="col-6 match-info">
+                                        {logo_html2}
+                                        {time2.strip()}
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 match-info">
+                                        {resultado_time1} - {resultado_time2}
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 match-status">
+                                        {status}
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 match-info">
+                                        {data}
+                                    </div>
+                                </div>
+                            </div>
+                        """, unsafe_allow_html=True)
 
         st.markdown("""
             <div class="subheader">Próximas Partidas</div>
