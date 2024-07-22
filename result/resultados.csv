@@ -1,0 +1,381 @@
+Rodada,Data,Jogo,Resultado_Time1,Resultado_Time2,Status
+1,2024-04-13 18:30,SC Internacional vs EC Bahia,2,1,FINISHED
+1,2024-04-13 18:30,Criciúma EC vs EC Juventude,1,1,FINISHED
+1,2024-04-13 21:00,Fluminense FC vs RB Bragantino,2,2,FINISHED
+1,2024-04-13 21:00,São Paulo FC vs Fortaleza EC,1,2,FINISHED
+1,2024-04-14 16:00,CR Vasco da Gama vs Grêmio FBPA,2,1,FINISHED
+1,2024-04-14 16:00,SC Corinthians Paulista vs CA Mineiro,0,0,FINISHED
+1,2024-04-14 16:00,CA Paranaense vs Cuiabá EC,4,0,FINISHED
+1,2024-04-14 16:00,AC Goianiense vs CR Flamengo,1,2,FINISHED
+1,2024-04-14 17:00,Cruzeiro EC vs Botafogo FR,3,2,FINISHED
+1,2024-04-14 18:30,EC Vitória vs SE Palmeiras,0,1,FINISHED
+2,2024-04-16 21:30,EC Bahia vs Fluminense FC,2,1,FINISHED
+2,2024-04-17 19:00,RB Bragantino vs CR Vasco da Gama,2,1,FINISHED
+2,2024-04-17 19:00,Grêmio FBPA vs CA Paranaense,2,0,FINISHED
+2,2024-04-17 20:00,CA Mineiro vs Criciúma EC,1,1,FINISHED
+2,2024-04-17 20:00,Fortaleza EC vs Cruzeiro EC,1,1,FINISHED
+2,2024-04-17 20:00,EC Juventude vs SC Corinthians Paulista,2,0,FINISHED
+2,2024-04-17 20:00,SE Palmeiras vs SC Internacional,0,1,FINISHED
+2,2024-04-17 21:30,CR Flamengo vs São Paulo FC,2,1,FINISHED
+2,2024-04-18 21:30,Botafogo FR vs AC Goianiense,1,0,FINISHED
+3,2024-04-20 16:00,Fluminense FC vs CR Vasco da Gama,2,1,FINISHED
+3,2024-04-20 18:30,RB Bragantino vs SC Corinthians Paulista,1,0,FINISHED
+3,2024-04-20 18:30,Grêmio FBPA vs Cuiabá EC,1,0,FINISHED
+3,2024-04-20 21:00,CA Mineiro vs Cruzeiro EC,3,0,FINISHED
+3,2024-04-21 16:00,CA Paranaense vs SC Internacional,1,0,FINISHED
+3,2024-04-21 16:00,SE Palmeiras vs CR Flamengo,0,0,FINISHED
+3,2024-04-21 16:00,EC Vitória vs EC Bahia,2,2,FINISHED
+3,2024-04-21 18:30,AC Goianiense vs São Paulo FC,0,3,FINISHED
+3,2024-04-21 18:30,Botafogo FR vs EC Juventude,5,1,FINISHED
+4,2024-04-27 16:00,CR Vasco da Gama vs Criciúma EC,0,4,FINISHED
+4,2024-04-27 18:30,Cuiabá EC vs CA Mineiro,0,3,FINISHED
+4,2024-04-27 21:00,EC Bahia vs Grêmio FBPA,1,0,FINISHED
+4,2024-04-28 11:00,CR Flamengo vs Botafogo FR,0,2,FINISHED
+4,2024-04-28 16:00,SC Corinthians Paulista vs Fluminense FC,3,0,FINISHED
+4,2024-04-28 16:00,Cruzeiro EC vs EC Vitória,3,1,FINISHED
+4,2024-04-28 18:30,Fortaleza EC vs RB Bragantino,1,1,FINISHED
+4,2024-04-28 18:30,EC Juventude vs CA Paranaense,1,1,FINISHED
+4,2024-04-28 20:00,SC Internacional vs AC Goianiense,1,1,FINISHED
+4,2024-04-29 20:00,São Paulo FC vs SE Palmeiras,0,0,FINISHED
+5,2024-05-04 16:00,Fluminense FC vs CA Mineiro,2,2,FINISHED
+5,2024-05-04 18:30,RB Bragantino vs CR Flamengo,1,1,FINISHED
+5,2024-05-04 21:00,SC Corinthians Paulista vs Fortaleza EC,0,0,FINISHED
+5,2024-05-04 21:00,Cruzeiro EC vs SC Internacional,,,POSTPONED
+5,2024-05-04 21:00,Grêmio FBPA vs Criciúma EC,,,POSTPONED
+5,2024-05-05 16:00,CA Paranaense vs CR Vasco da Gama,1,0,FINISHED
+5,2024-05-05 16:00,EC Vitória vs São Paulo FC,1,3,FINISHED
+5,2024-05-05 18:30,Botafogo FR vs EC Bahia,1,2,FINISHED
+5,2024-05-05 18:30,Cuiabá EC vs SE Palmeiras,0,2,FINISHED
+6,2024-05-11 16:00,CR Flamengo vs SC Corinthians Paulista,2,0,FINISHED
+6,2024-05-11 21:00,CA Mineiro vs Grêmio FBPA,,,POSTPONED
+6,2024-05-12 16:00,AC Goianiense vs Cruzeiro EC,0,1,FINISHED
+6,2024-05-12 16:00,Fortaleza EC vs Botafogo FR,1,1,FINISHED
+6,2024-05-12 16:00,SE Palmeiras vs CA Paranaense,0,2,FINISHED
+6,2024-05-12 18:30,EC Bahia vs RB Bragantino,1,0,FINISHED
+6,2024-05-12 18:30,CR Vasco da Gama vs EC Vitória,2,1,FINISHED
+6,2024-05-13 20:00,São Paulo FC vs Fluminense FC,2,1,FINISHED
+6,2024-05-13 21:00,SC Internacional vs EC Juventude,,,POSTPONED
+7,2024-06-01 16:00,Grêmio FBPA vs RB Bragantino,0,2,FINISHED
+7,2024-06-01 16:00,EC Vitória vs AC Goianiense,0,2,FINISHED
+7,2024-06-01 18:30,Cuiabá EC vs SC Internacional,0,1,FINISHED
+7,2024-06-01 18:30,Fluminense FC vs EC Juventude,1,1,FINISHED
+7,2024-06-01 21:00,SC Corinthians Paulista vs Botafogo FR,0,1,FINISHED
+7,2024-06-02 16:00,CA Mineiro vs EC Bahia,1,1,FINISHED
+7,2024-06-02 16:00,Criciúma EC vs SE Palmeiras,1,2,FINISHED
+7,2024-06-02 16:00,CR Vasco da Gama vs CR Flamengo,1,6,FINISHED
+7,2024-06-02 18:30,Fortaleza EC vs CA Paranaense,1,0,FINISHED
+7,2024-06-02 18:30,São Paulo FC vs Cruzeiro EC,2,0,FINISHED
+5,2024-06-05 19:00,EC Juventude vs AC Goianiense,1,0,FINISHED
+2,2024-06-05 20:00,Cuiabá EC vs EC Vitória,0,0,FINISHED
+6,2024-06-09 16:00,Criciúma EC vs Cuiabá EC,2,5,FINISHED
+8,2024-06-11 19:00,AC Goianiense vs SC Corinthians Paulista,2,2,FINISHED
+8,2024-06-11 19:00,EC Juventude vs EC Vitória,1,1,FINISHED
+8,2024-06-11 20:00,Botafogo FR vs Fluminense FC,1,0,FINISHED
+8,2024-06-11 21:30,RB Bragantino vs CA Mineiro,1,2,FINISHED
+8,2024-06-13 19:00,Cruzeiro EC vs Cuiabá EC,2,1,FINISHED
+8,2024-06-13 20:00,CR Flamengo vs Grêmio FBPA,2,1,FINISHED
+8,2024-06-13 20:00,SC Internacional vs São Paulo FC,0,0,FINISHED
+8,2024-06-13 20:00,CA Paranaense vs Criciúma EC,3,1,FINISHED
+8,2024-06-13 21:30,EC Bahia vs Fortaleza EC,1,0,FINISHED
+8,2024-06-13 21:30,SE Palmeiras vs CR Vasco da Gama,2,0,FINISHED
+9,2024-06-15 18:30,RB Bragantino vs EC Juventude,2,1,FINISHED
+9,2024-06-15 21:00,Fluminense FC vs AC Goianiense,1,2,FINISHED
+9,2024-06-16 16:00,CA Paranaense vs CR Flamengo,1,1,FINISHED
+9,2024-06-16 16:00,SC Corinthians Paulista vs São Paulo FC,2,2,FINISHED
+9,2024-06-16 16:00,EC Vitória vs SC Internacional,2,1,FINISHED
+9,2024-06-16 18:30,Criciúma EC vs EC Bahia,2,2,FINISHED
+9,2024-06-16 18:30,Cuiabá EC vs Fortaleza EC,5,0,FINISHED
+9,2024-06-16 18:30,Grêmio FBPA vs Botafogo FR,1,2,FINISHED
+9,2024-06-16 18:30,CR Vasco da Gama vs Cruzeiro EC,0,0,FINISHED
+9,2024-06-17 20:30,CA Mineiro vs SE Palmeiras,0,4,FINISHED
+10,2024-06-19 19:00,AC Goianiense vs Criciúma EC,1,2,FINISHED
+10,2024-06-19 19:00,Botafogo FR vs CA Paranaense,1,1,FINISHED
+10,2024-06-19 20:00,Fortaleza EC vs Grêmio FBPA,1,0,FINISHED
+10,2024-06-19 20:00,EC Juventude vs CR Vasco da Gama,2,0,FINISHED
+10,2024-06-19 20:00,São Paulo FC vs Cuiabá EC,0,1,FINISHED
+10,2024-06-19 21:30,Cruzeiro EC vs Fluminense FC,2,0,FINISHED
+10,2024-06-19 21:30,SC Internacional vs SC Corinthians Paulista,1,0,FINISHED
+10,2024-06-20 18:30,EC Vitória vs CA Mineiro,4,2,FINISHED
+10,2024-06-20 20:00,CR Flamengo vs EC Bahia,2,1,FINISHED
+10,2024-06-20 21:30,SE Palmeiras vs RB Bragantino,2,1,FINISHED
+11,2024-06-22 16:00,Criciúma EC vs Botafogo FR,2,1,FINISHED
+11,2024-06-22 17:30,Grêmio FBPA vs SC Internacional,0,1,FINISHED
+11,2024-06-22 18:30,Cuiabá EC vs AC Goianiense,0,0,FINISHED
+11,2024-06-22 21:30,CR Vasco da Gama vs São Paulo FC,4,1,FINISHED
+11,2024-06-23 16:00,CA Paranaense vs SC Corinthians Paulista,1,1,FINISHED
+11,2024-06-23 16:00,EC Bahia vs Cruzeiro EC,4,1,FINISHED
+11,2024-06-23 16:00,Fluminense FC vs CR Flamengo,0,1,FINISHED
+11,2024-06-23 18:30,CA Mineiro vs Fortaleza EC,1,1,FINISHED
+11,2024-06-23 18:30,RB Bragantino vs EC Vitória,2,1,FINISHED
+11,2024-06-23 18:30,SE Palmeiras vs EC Juventude,3,1,FINISHED
+12,2024-06-26 19:00,Botafogo FR vs RB Bragantino,2,1,FINISHED
+12,2024-06-26 19:00,Cruzeiro EC vs CA Paranaense,2,0,FINISHED
+12,2024-06-26 20:00,AC Goianiense vs Grêmio FBPA,1,1,FINISHED
+12,2024-06-26 20:00,SC Corinthians Paulista vs Cuiabá EC,1,1,FINISHED
+12,2024-06-26 20:00,EC Juventude vs CR Flamengo,2,1,FINISHED
+12,2024-06-26 21:30,EC Bahia vs CR Vasco da Gama,2,1,FINISHED
+12,2024-06-26 21:30,Fortaleza EC vs SE Palmeiras,3,0,FINISHED
+12,2024-06-26 21:30,SC Internacional vs CA Mineiro,1,2,FINISHED
+12,2024-06-27 19:00,Fluminense FC vs EC Vitória,0,1,FINISHED
+12,2024-06-27 20:00,São Paulo FC vs Criciúma EC,2,1,FINISHED
+13,2024-06-29 18:30,Cuiabá EC vs RB Bragantino,1,1,FINISHED
+13,2024-06-29 18:30,CR Vasco da Gama vs Botafogo FR,1,1,FINISHED
+13,2024-06-30 11:00,CA Mineiro vs AC Goianiense,1,1,FINISHED
+13,2024-06-30 16:00,Fortaleza EC vs EC Juventude,2,1,FINISHED
+13,2024-06-30 16:00,Grêmio FBPA vs Fluminense FC,1,0,FINISHED
+13,2024-06-30 16:00,São Paulo FC vs EC Bahia,3,1,FINISHED
+13,2024-06-30 18:30,Criciúma EC vs SC Internacional,1,1,FINISHED
+13,2024-06-30 18:30,CR Flamengo vs Cruzeiro EC,2,1,FINISHED
+13,2024-06-30 18:30,EC Vitória vs CA Paranaense,0,1,FINISHED
+13,2024-07-01 20:00,SE Palmeiras vs SC Corinthians Paulista,2,0,FINISHED
+14,2024-07-03 19:00,Cuiabá EC vs Botafogo FR,1,2,FINISHED
+14,2024-07-03 20:00,Criciúma EC vs Cruzeiro EC,1,0,FINISHED
+14,2024-07-03 20:00,CR Vasco da Gama vs Fortaleza EC,2,0,FINISHED
+14,2024-07-03 21:30,CA Paranaense vs São Paulo FC,1,2,FINISHED
+14,2024-07-03 21:30,CA Mineiro vs CR Flamengo,2,4,FINISHED
+14,2024-07-03 21:30,RB Bragantino vs AC Goianiense,3,1,FINISHED
+14,2024-07-04 19:00,EC Bahia vs EC Juventude,2,0,FINISHED
+14,2024-07-04 19:00,Grêmio FBPA vs SE Palmeiras,2,2,FINISHED
+14,2024-07-04 20:00,SC Corinthians Paulista vs EC Vitória,3,2,FINISHED
+14,2024-07-04 20:00,Fluminense FC vs SC Internacional,1,1,FINISHED
+15,2024-07-06 20:00,CR Flamengo vs Cuiabá EC,1,1,FINISHED
+15,2024-07-06 20:00,São Paulo FC vs RB Bragantino,2,0,FINISHED
+15,2024-07-07 16:00,Cruzeiro EC vs SC Corinthians Paulista,3,0,FINISHED
+15,2024-07-07 16:00,Fortaleza EC vs Fluminense FC,1,0,FINISHED
+15,2024-07-07 16:00,EC Juventude vs Grêmio FBPA,3,0,FINISHED
+15,2024-07-07 18:00,SC Internacional vs CR Vasco da Gama,1,2,FINISHED
+15,2024-07-07 18:30,AC Goianiense vs CA Paranaense,1,2,FINISHED
+15,2024-07-07 18:30,SE Palmeiras vs EC Bahia,2,0,FINISHED
+15,2024-07-07 18:30,EC Vitória vs Criciúma EC,2,1,FINISHED
+15,2024-07-07 20:30,Botafogo FR vs CA Mineiro,3,0,FINISHED
+16,2024-07-09 21:00,RB Bragantino vs SC Internacional,,,POSTPONED
+16,2024-07-10 18:30,Grêmio FBPA vs Cruzeiro EC,0,2,FINISHED
+16,2024-07-10 19:00,CA Paranaense vs EC Bahia,1,3,FINISHED
+16,2024-07-10 19:00,CR Vasco da Gama vs SC Corinthians Paulista,2,0,FINISHED
+16,2024-07-10 21:00,Cuiabá EC vs EC Juventude,,,POSTPONED
+16,2024-07-11 19:30,SE Palmeiras vs AC Goianiense,3,1,FINISHED
+16,2024-07-11 20:00,Criciúma EC vs Fluminense FC,1,1,FINISHED
+16,2024-07-11 20:00,CR Flamengo vs Fortaleza EC,1,2,FINISHED
+16,2024-07-11 21:30,CA Mineiro vs São Paulo FC,2,1,FINISHED
+16,2024-07-11 21:30,EC Vitória vs Botafogo FR,0,1,FINISHED
+17,2024-07-13 16:00,EC Bahia vs Cuiabá EC,1,2,FINISHED
+17,2024-07-13 16:00,Cruzeiro EC vs RB Bragantino,2,1,FINISHED
+17,2024-07-16 19:00,EC Juventude vs CA Mineiro,1,1,FINISHED
+17,2024-07-16 21:00,SC Corinthians Paulista vs Criciúma EC,2,1,FINISHED
+17,2024-07-16 21:00,Fluminense FC vs CA Paranaense,,,POSTPONED
+17,2024-07-16 21:00,SC Internacional vs CR Flamengo,,,POSTPONED
+17,2024-07-17 19:00,AC Goianiense vs CR Vasco da Gama,0,1,FINISHED
+17,2024-07-17 20:00,São Paulo FC vs Grêmio FBPA,1,0,FINISHED
+17,2024-07-17 21:30,Botafogo FR vs SE Palmeiras,1,0,FINISHED
+17,2024-07-17 21:30,Fortaleza EC vs EC Vitória,3,1,FINISHED
+18,2024-07-20 16:00,CR Flamengo vs Criciúma EC,2,1,FINISHED
+18,2024-07-20 18:30,Botafogo FR vs SC Internacional,1,0,FINISHED
+18,2024-07-20 21:00,SE Palmeiras vs Cruzeiro EC,2,0,FINISHED
+18,2024-07-21 11:00,Grêmio FBPA vs EC Vitória,2,0,FINISHED
+18,2024-07-21 16:00,CA Mineiro vs CR Vasco da Gama,2,0,FINISHED
+18,2024-07-21 16:00,EC Bahia vs SC Corinthians Paulista,0,1,FINISHED
+18,2024-07-21 18:30,RB Bragantino vs CA Paranaense,1,0,FINISHED
+18,2024-07-21 18:30,Fortaleza EC vs AC Goianiense,3,1,FINISHED
+18,2024-07-21 18:30,EC Juventude vs São Paulo FC,0,0,FINISHED
+18,2024-07-21 20:00,Cuiabá EC vs Fluminense FC,0,1,FINISHED
+19,2024-07-23 21:00,CA Paranaense vs CA Mineiro,,,POSTPONED
+19,2024-07-23 21:00,Criciúma EC vs RB Bragantino,,,POSTPONED
+19,2024-07-23 21:00,SC Internacional vs Fortaleza EC,,,POSTPONED
+19,2024-07-23 21:00,CR Vasco da Gama vs Cuiabá EC,,,POSTPONED
+19,2024-07-24 19:00,Cruzeiro EC vs EC Juventude,,,SCHEDULED
+3,2024-07-24 19:00,Criciúma EC vs Fortaleza EC,,,SCHEDULED
+19,2024-07-24 19:30,São Paulo FC vs Botafogo FR,,,SCHEDULED
+19,2024-07-24 20:00,EC Vitória vs CR Flamengo,,,SCHEDULED
+19,2024-07-24 21:30,AC Goianiense vs EC Bahia,,,SCHEDULED
+19,2024-07-24 21:30,Fluminense FC vs SE Palmeiras,,,SCHEDULED
+19,2024-07-25 20:00,SC Corinthians Paulista vs Grêmio FBPA,,,SCHEDULED
+20,2024-07-27 19:00,EC Juventude vs Criciúma EC,,,SCHEDULED
+20,2024-07-27 19:00,SE Palmeiras vs EC Vitória,,,SCHEDULED
+20,2024-07-27 21:30,Botafogo FR vs Cruzeiro EC,,,SCHEDULED
+20,2024-07-27 21:30,Fortaleza EC vs São Paulo FC,,,SCHEDULED
+20,2024-07-28 11:00,RB Bragantino vs Fluminense FC,,,SCHEDULED
+20,2024-07-28 16:00,CR Flamengo vs AC Goianiense,,,SCHEDULED
+20,2024-07-28 16:00,Grêmio FBPA vs CR Vasco da Gama,,,SCHEDULED
+20,2024-07-28 19:00,CA Mineiro vs SC Corinthians Paulista,,,SCHEDULED
+20,2024-07-28 19:00,Cuiabá EC vs CA Paranaense,,,SCHEDULED
+20,2024-07-29 21:00,EC Bahia vs SC Internacional,,,SCHEDULED
+21,2024-08-03 19:00,CR Vasco da Gama vs RB Bragantino,,,SCHEDULED
+21,2024-08-03 20:00,Criciúma EC vs CA Mineiro,,,SCHEDULED
+21,2024-08-03 20:00,EC Vitória vs Cuiabá EC,,,SCHEDULED
+21,2024-08-03 21:30,São Paulo FC vs CR Flamengo,,,SCHEDULED
+21,2024-08-04 16:00,CA Paranaense vs Grêmio FBPA,,,SCHEDULED
+21,2024-08-04 16:00,AC Goianiense vs Botafogo FR,,,SCHEDULED
+21,2024-08-04 16:00,SC Corinthians Paulista vs EC Juventude,,,SCHEDULED
+21,2024-08-04 16:00,Fluminense FC vs EC Bahia,,,SCHEDULED
+21,2024-08-04 19:00,SC Internacional vs SE Palmeiras,,,SCHEDULED
+21,2024-08-05 21:00,Cruzeiro EC vs Fortaleza EC,,,SCHEDULED
+22,2024-08-10 21:30,SC Corinthians Paulista vs RB Bragantino,,,SCHEDULED
+22,2024-08-10 21:30,Cruzeiro EC vs CA Mineiro,,,SCHEDULED
+22,2024-08-10 21:30,CR Vasco da Gama vs Fluminense FC,,,SCHEDULED
+22,2024-08-11 11:00,EC Juventude vs Botafogo FR,,,SCHEDULED
+22,2024-08-11 16:00,EC Bahia vs EC Vitória,,,SCHEDULED
+22,2024-08-11 16:00,Cuiabá EC vs Grêmio FBPA,,,SCHEDULED
+22,2024-08-11 16:00,CR Flamengo vs SE Palmeiras,,,SCHEDULED
+22,2024-08-11 16:00,São Paulo FC vs AC Goianiense,,,SCHEDULED
+22,2024-08-11 19:00,Fortaleza EC vs Criciúma EC,,,SCHEDULED
+22,2024-08-11 19:00,SC Internacional vs CA Paranaense,,,SCHEDULED
+23,2024-08-17 16:00,CA Mineiro vs Cuiabá EC,,,SCHEDULED
+23,2024-08-17 18:30,RB Bragantino vs Fortaleza EC,,,SCHEDULED
+23,2024-08-17 18:30,Grêmio FBPA vs EC Bahia,,,SCHEDULED
+23,2024-08-17 21:00,Fluminense FC vs SC Corinthians Paulista,,,SCHEDULED
+23,2024-08-18 16:00,AC Goianiense vs SC Internacional,,,SCHEDULED
+23,2024-08-18 16:00,Criciúma EC vs CR Vasco da Gama,,,SCHEDULED
+23,2024-08-18 16:00,SE Palmeiras vs São Paulo FC,,,SCHEDULED
+23,2024-08-18 18:00,CA Paranaense vs EC Juventude,,,SCHEDULED
+23,2024-08-18 18:30,Botafogo FR vs CR Flamengo,,,SCHEDULED
+23,2024-08-19 20:00,EC Vitória vs Cruzeiro EC,,,SCHEDULED
+24,2024-08-24 16:00,AC Goianiense vs EC Juventude,,,SCHEDULED
+24,2024-08-24 18:30,SE Palmeiras vs Cuiabá EC,,,SCHEDULED
+24,2024-08-24 21:00,CA Mineiro vs Fluminense FC,,,SCHEDULED
+24,2024-08-25 11:00,Criciúma EC vs Grêmio FBPA,,,SCHEDULED
+24,2024-08-25 16:00,EC Bahia vs Botafogo FR,,,SCHEDULED
+24,2024-08-25 16:00,Fortaleza EC vs SC Corinthians Paulista,,,SCHEDULED
+24,2024-08-25 16:00,SC Internacional vs Cruzeiro EC,,,SCHEDULED
+24,2024-08-25 18:30,São Paulo FC vs EC Vitória,,,SCHEDULED
+24,2024-08-25 20:00,CR Flamengo vs RB Bragantino,,,SCHEDULED
+24,2024-08-26 21:00,CR Vasco da Gama vs CA Paranaense,,,SCHEDULED
+25,2024-08-31 16:00,RB Bragantino vs EC Bahia,,,SCHEDULED
+25,2024-08-31 18:30,Cuiabá EC vs Criciúma EC,,,SCHEDULED
+25,2024-08-31 21:00,Botafogo FR vs Fortaleza EC,,,SCHEDULED
+25,2024-09-01 11:00,Cruzeiro EC vs AC Goianiense,,,SCHEDULED
+25,2024-09-01 16:00,CA Paranaense vs SE Palmeiras,,,SCHEDULED
+25,2024-09-01 16:00,SC Corinthians Paulista vs CR Flamengo,,,SCHEDULED
+25,2024-09-01 16:00,Grêmio FBPA vs CA Mineiro,,,SCHEDULED
+25,2024-09-01 18:30,Fluminense FC vs São Paulo FC,,,SCHEDULED
+25,2024-09-01 18:30,EC Juventude vs SC Internacional,,,SCHEDULED
+25,2024-09-01 18:30,EC Vitória vs CR Vasco da Gama,,,SCHEDULED
+26,2024-09-14 21:00,CA Paranaense vs Fortaleza EC,,,SCHEDULED
+26,2024-09-14 21:00,AC Goianiense vs EC Vitória,,,SCHEDULED
+26,2024-09-14 21:00,EC Bahia vs CA Mineiro,,,SCHEDULED
+26,2024-09-14 21:00,Botafogo FR vs SC Corinthians Paulista,,,SCHEDULED
+26,2024-09-14 21:00,RB Bragantino vs Grêmio FBPA,,,SCHEDULED
+26,2024-09-14 21:00,Cruzeiro EC vs São Paulo FC,,,SCHEDULED
+26,2024-09-14 21:00,CR Flamengo vs CR Vasco da Gama,,,SCHEDULED
+26,2024-09-14 21:00,SC Internacional vs Cuiabá EC,,,SCHEDULED
+26,2024-09-14 21:00,EC Juventude vs Fluminense FC,,,SCHEDULED
+26,2024-09-14 21:00,SE Palmeiras vs Criciúma EC,,,SCHEDULED
+27,2024-09-21 21:00,CA Mineiro vs RB Bragantino,,,SCHEDULED
+27,2024-09-21 21:00,SC Corinthians Paulista vs AC Goianiense,,,SCHEDULED
+27,2024-09-21 21:00,Criciúma EC vs CA Paranaense,,,SCHEDULED
+27,2024-09-21 21:00,Cuiabá EC vs Cruzeiro EC,,,SCHEDULED
+27,2024-09-21 21:00,Fluminense FC vs Botafogo FR,,,SCHEDULED
+27,2024-09-21 21:00,Fortaleza EC vs EC Bahia,,,SCHEDULED
+27,2024-09-21 21:00,Grêmio FBPA vs CR Flamengo,,,SCHEDULED
+27,2024-09-21 21:00,São Paulo FC vs SC Internacional,,,SCHEDULED
+27,2024-09-21 21:00,CR Vasco da Gama vs SE Palmeiras,,,SCHEDULED
+27,2024-09-21 21:00,EC Vitória vs EC Juventude,,,SCHEDULED
+28,2024-09-28 21:00,AC Goianiense vs Fluminense FC,,,SCHEDULED
+28,2024-09-28 21:00,EC Bahia vs Criciúma EC,,,SCHEDULED
+28,2024-09-28 21:00,Botafogo FR vs Grêmio FBPA,,,SCHEDULED
+28,2024-09-28 21:00,Cruzeiro EC vs CR Vasco da Gama,,,SCHEDULED
+28,2024-09-28 21:00,CR Flamengo vs CA Paranaense,,,SCHEDULED
+28,2024-09-28 21:00,Fortaleza EC vs Cuiabá EC,,,SCHEDULED
+28,2024-09-28 21:00,SC Internacional vs EC Vitória,,,SCHEDULED
+28,2024-09-28 21:00,EC Juventude vs RB Bragantino,,,SCHEDULED
+28,2024-09-28 21:00,SE Palmeiras vs CA Mineiro,,,SCHEDULED
+28,2024-09-28 21:00,São Paulo FC vs SC Corinthians Paulista,,,SCHEDULED
+29,2024-10-04 21:00,CA Paranaense vs Botafogo FR,,,SCHEDULED
+29,2024-10-04 21:00,CA Mineiro vs EC Vitória,,,SCHEDULED
+29,2024-10-04 21:00,EC Bahia vs CR Flamengo,,,SCHEDULED
+29,2024-10-04 21:00,RB Bragantino vs SE Palmeiras,,,SCHEDULED
+29,2024-10-04 21:00,SC Corinthians Paulista vs SC Internacional,,,SCHEDULED
+29,2024-10-04 21:00,Criciúma EC vs AC Goianiense,,,SCHEDULED
+29,2024-10-04 21:00,Cuiabá EC vs São Paulo FC,,,SCHEDULED
+29,2024-10-04 21:00,Fluminense FC vs Cruzeiro EC,,,SCHEDULED
+29,2024-10-04 21:00,Grêmio FBPA vs Fortaleza EC,,,SCHEDULED
+29,2024-10-04 21:00,CR Vasco da Gama vs EC Juventude,,,SCHEDULED
+30,2024-10-19 21:00,AC Goianiense vs Cuiabá EC,,,SCHEDULED
+30,2024-10-19 21:00,Botafogo FR vs Criciúma EC,,,SCHEDULED
+30,2024-10-19 21:00,SC Corinthians Paulista vs CA Paranaense,,,SCHEDULED
+30,2024-10-19 21:00,Cruzeiro EC vs EC Bahia,,,SCHEDULED
+30,2024-10-19 21:00,CR Flamengo vs Fluminense FC,,,SCHEDULED
+30,2024-10-19 21:00,Fortaleza EC vs CA Mineiro,,,SCHEDULED
+30,2024-10-19 21:00,SC Internacional vs Grêmio FBPA,,,SCHEDULED
+30,2024-10-19 21:00,EC Juventude vs SE Palmeiras,,,SCHEDULED
+30,2024-10-19 21:00,São Paulo FC vs CR Vasco da Gama,,,SCHEDULED
+30,2024-10-19 21:00,EC Vitória vs RB Bragantino,,,SCHEDULED
+31,2024-10-25 21:00,CA Paranaense vs Cruzeiro EC,,,SCHEDULED
+31,2024-10-25 21:00,CA Mineiro vs SC Internacional,,,SCHEDULED
+31,2024-10-25 21:00,RB Bragantino vs Botafogo FR,,,SCHEDULED
+31,2024-10-25 21:00,Criciúma EC vs São Paulo FC,,,SCHEDULED
+31,2024-10-25 21:00,Cuiabá EC vs SC Corinthians Paulista,,,SCHEDULED
+31,2024-10-25 21:00,CR Flamengo vs EC Juventude,,,SCHEDULED
+31,2024-10-25 21:00,Grêmio FBPA vs AC Goianiense,,,SCHEDULED
+31,2024-10-25 21:00,SE Palmeiras vs Fortaleza EC,,,SCHEDULED
+31,2024-10-25 21:00,CR Vasco da Gama vs EC Bahia,,,SCHEDULED
+31,2024-10-25 21:00,EC Vitória vs Fluminense FC,,,SCHEDULED
+32,2024-11-05 21:00,CA Paranaense vs EC Vitória,,,SCHEDULED
+32,2024-11-05 21:00,AC Goianiense vs CA Mineiro,,,SCHEDULED
+32,2024-11-05 21:00,EC Bahia vs São Paulo FC,,,SCHEDULED
+32,2024-11-05 21:00,Botafogo FR vs CR Vasco da Gama,,,SCHEDULED
+32,2024-11-05 21:00,RB Bragantino vs Cuiabá EC,,,SCHEDULED
+32,2024-11-05 21:00,SC Corinthians Paulista vs SE Palmeiras,,,SCHEDULED
+32,2024-11-05 21:00,Cruzeiro EC vs CR Flamengo,,,SCHEDULED
+32,2024-11-05 21:00,Fluminense FC vs Grêmio FBPA,,,SCHEDULED
+32,2024-11-05 21:00,SC Internacional vs Criciúma EC,,,SCHEDULED
+32,2024-11-05 21:00,EC Juventude vs Fortaleza EC,,,SCHEDULED
+33,2024-11-12 21:00,SE Palmeiras vs Grêmio FBPA,,,SCHEDULED
+33,2024-11-12 21:00,São Paulo FC vs CA Paranaense,,,SCHEDULED
+33,2024-11-12 21:00,EC Vitória vs SC Corinthians Paulista,,,SCHEDULED
+33,2024-11-12 21:00,AC Goianiense vs RB Bragantino,,,SCHEDULED
+33,2024-11-12 21:00,Botafogo FR vs Cuiabá EC,,,SCHEDULED
+33,2024-11-12 21:00,Cruzeiro EC vs Criciúma EC,,,SCHEDULED
+33,2024-11-12 21:00,CR Flamengo vs CA Mineiro,,,SCHEDULED
+33,2024-11-12 21:00,Fortaleza EC vs CR Vasco da Gama,,,SCHEDULED
+33,2024-11-12 21:00,SC Internacional vs Fluminense FC,,,SCHEDULED
+33,2024-11-12 21:00,EC Juventude vs EC Bahia,,,SCHEDULED
+34,2024-11-19 21:00,CA Paranaense vs AC Goianiense,,,SCHEDULED
+34,2024-11-19 21:00,CA Mineiro vs Botafogo FR,,,SCHEDULED
+34,2024-11-19 21:00,EC Bahia vs SE Palmeiras,,,SCHEDULED
+34,2024-11-19 21:00,RB Bragantino vs São Paulo FC,,,SCHEDULED
+34,2024-11-19 21:00,SC Corinthians Paulista vs Cruzeiro EC,,,SCHEDULED
+34,2024-11-19 21:00,Criciúma EC vs EC Vitória,,,SCHEDULED
+34,2024-11-19 21:00,Cuiabá EC vs CR Flamengo,,,SCHEDULED
+34,2024-11-19 21:00,Fluminense FC vs Fortaleza EC,,,SCHEDULED
+34,2024-11-19 21:00,Grêmio FBPA vs EC Juventude,,,SCHEDULED
+34,2024-11-19 21:00,CR Vasco da Gama vs SC Internacional,,,SCHEDULED
+35,2024-11-22 21:00,AC Goianiense vs SE Palmeiras,,,SCHEDULED
+35,2024-11-22 21:00,EC Bahia vs CA Paranaense,,,SCHEDULED
+35,2024-11-22 21:00,Botafogo FR vs EC Vitória,,,SCHEDULED
+35,2024-11-22 21:00,SC Corinthians Paulista vs CR Vasco da Gama,,,SCHEDULED
+35,2024-11-22 21:00,Cruzeiro EC vs Grêmio FBPA,,,SCHEDULED
+35,2024-11-22 21:00,Fluminense FC vs Criciúma EC,,,SCHEDULED
+35,2024-11-22 21:00,Fortaleza EC vs CR Flamengo,,,SCHEDULED
+35,2024-11-22 21:00,SC Internacional vs RB Bragantino,,,SCHEDULED
+35,2024-11-22 21:00,EC Juventude vs Cuiabá EC,,,SCHEDULED
+35,2024-11-22 21:00,São Paulo FC vs CA Mineiro,,,SCHEDULED
+36,2024-11-29 21:00,CA Paranaense vs Fluminense FC,,,SCHEDULED
+36,2024-11-29 21:00,CA Mineiro vs EC Juventude,,,SCHEDULED
+36,2024-11-29 21:00,RB Bragantino vs Cruzeiro EC,,,SCHEDULED
+36,2024-11-29 21:00,Criciúma EC vs SC Corinthians Paulista,,,SCHEDULED
+36,2024-11-29 21:00,Cuiabá EC vs EC Bahia,,,SCHEDULED
+36,2024-11-29 21:00,CR Flamengo vs SC Internacional,,,SCHEDULED
+36,2024-11-29 21:00,Grêmio FBPA vs São Paulo FC,,,SCHEDULED
+36,2024-11-29 21:00,SE Palmeiras vs Botafogo FR,,,SCHEDULED
+36,2024-11-29 21:00,CR Vasco da Gama vs AC Goianiense,,,SCHEDULED
+36,2024-11-29 21:00,EC Vitória vs Fortaleza EC,,,SCHEDULED
+37,2024-12-03 21:00,CA Paranaense vs RB Bragantino,,,SCHEDULED
+37,2024-12-03 21:00,AC Goianiense vs Fortaleza EC,,,SCHEDULED
+37,2024-12-03 21:00,SC Corinthians Paulista vs EC Bahia,,,SCHEDULED
+37,2024-12-03 21:00,Criciúma EC vs CR Flamengo,,,SCHEDULED
+37,2024-12-03 21:00,Cruzeiro EC vs SE Palmeiras,,,SCHEDULED
+37,2024-12-03 21:00,Fluminense FC vs Cuiabá EC,,,SCHEDULED
+37,2024-12-03 21:00,SC Internacional vs Botafogo FR,,,SCHEDULED
+37,2024-12-03 21:00,São Paulo FC vs EC Juventude,,,SCHEDULED
+37,2024-12-03 21:00,CR Vasco da Gama vs CA Mineiro,,,SCHEDULED
+37,2024-12-03 21:00,EC Vitória vs Grêmio FBPA,,,SCHEDULED
+38,2024-12-07 21:00,CA Mineiro vs CA Paranaense,,,SCHEDULED
+38,2024-12-07 21:00,EC Bahia vs AC Goianiense,,,SCHEDULED
+38,2024-12-07 21:00,Botafogo FR vs São Paulo FC,,,SCHEDULED
+38,2024-12-07 21:00,RB Bragantino vs Criciúma EC,,,SCHEDULED
+38,2024-12-07 21:00,Cuiabá EC vs CR Vasco da Gama,,,SCHEDULED
+38,2024-12-07 21:00,CR Flamengo vs EC Vitória,,,SCHEDULED
+38,2024-12-07 21:00,Fortaleza EC vs SC Internacional,,,SCHEDULED
+38,2024-12-07 21:00,Grêmio FBPA vs SC Corinthians Paulista,,,SCHEDULED
+38,2024-12-07 21:00,EC Juventude vs Cruzeiro EC,,,SCHEDULED
+38,2024-12-07 21:00,SE Palmeiras vs Fluminense FC,,,SCHEDULED

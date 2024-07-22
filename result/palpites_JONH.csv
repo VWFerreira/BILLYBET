@@ -1,0 +1,31 @@
+Rodada,Jogo,Palpite_Time1,Palpite_Time2
+1,SC Internacional vs EC Bahia,1.0,2.0
+1,Criciúma EC vs EC Juventude,,
+1,Fluminense FC vs RB Bragantino,,
+1,São Paulo FC vs Fortaleza EC,,
+1,CR Vasco da Gama vs Grêmio FBPA,,
+1,SC Corinthians Paulista vs CA Mineiro,,
+1,CA Paranaense vs Cuiabá EC,,
+1,AC Goianiense vs CR Flamengo,,
+1,Cruzeiro EC vs Botafogo FR,,
+1,EC Vitória vs SE Palmeiras,,
+2,EC Bahia vs Fluminense FC,3.0,1.0
+2,RB Bragantino vs CR Vasco da Gama,1.0,1.0
+2,Grêmio FBPA vs CA Paranaense,,
+2,CA Mineiro vs Criciúma EC,,
+2,Fortaleza EC vs Cruzeiro EC,,
+2,EC Juventude vs SC Corinthians Paulista,,
+2,SE Palmeiras vs SC Internacional,,
+2,CR Flamengo vs São Paulo FC,,
+2,Botafogo FR vs AC Goianiense,,
+2,Cuiabá EC vs EC Vitória,,
+3,Fluminense FC vs CR Vasco da Gama,1.0,3.0
+3,RB Bragantino vs SC Corinthians Paulista,1.0,2.0
+3,Grêmio FBPA vs Cuiabá EC,2.0,2.0
+3,CA Mineiro vs Cruzeiro EC,2.0,2.0
+3,CA Paranaense vs SC Internacional,2.0,1.0
+3,SE Palmeiras vs CR Flamengo,2.0,1.0
+3,EC Vitória vs EC Bahia,2.0,1.0
+3,AC Goianiense vs São Paulo FC,2.0,1.0
+3,Botafogo FR vs EC Juventude,1.0,2.0
+3,Criciúma EC vs Fortaleza EC,2.0,1.0
